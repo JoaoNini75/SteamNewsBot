@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
-new_url = "https://store.steampowered.com/explore/new/" 
+new_url = "https://store.steampowered.com/explore/new/"
 
 
 class Game:
