@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import requests
+import requests 
 
 
 new_url = "https://store.steampowered.com/explore/new/"
