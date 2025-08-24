@@ -48,7 +48,7 @@ def get_image(name, game_div):
     print("Header URL:", img_url_final)
 
     img_data = requests.get(img_url_final).content
-    folder_name = "header_images"
+    folder_name = "../header_images"
     img_name = name + "_header." + img_type
     path = folder_name + "/" + img_name
 
@@ -89,8 +89,3 @@ def get_month_top_sellers():
         print()
     
     return MonthTopSellers(games, img_name)
-    
-def main():
-    month_top_sellers = get_month_top_sellers()
-
-main()
